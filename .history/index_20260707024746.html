@@ -1,0 +1,82 @@
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Servidor AWS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 Mi Servidor en AWS</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#inventario">Inventario</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h2>Amazon Linux 2023</h2>
+        <p>Infraestructura en la nube con Nginx, MariaDB y vsftpd</p>
+    </section>
+
+    <section id="servicios">
+        <h3>Servicios Activos</h3>
+        <div class="servicios-grid">
+            <div class="servicio">
+                <span class="icon">🌐</span>
+                <h4>Nginx</h4>
+                <p>Servidor Web</p>
+                <span class="activo">✅ Activo</span>
+            </div>
+            <div class="servicio">
+                <span class="icon">🗄️</span>
+                <h4>MariaDB</h4>
+                <p>Base de Datos</p>
+                <span class="activo">✅ Activo</span>
+            </div>
+            <div class="servicio">
+                <span class="icon">📂</span>
+                <h4>vsftpd</h4>
+                <p>Servidor FTP</p>
+                <span class="activo">✅ Activo</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="inventario">
+        <h3>Inventario de Productos</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Laptop Dell</td>
+                    <td>$899.99</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mouse Logitech</td>
+                    <td>$25.50</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>© 2026 [TU NOMBRE] - Proyecto Sistemas Operativos</p>
+    </footer>
+</body>
+</html>
+EOF
