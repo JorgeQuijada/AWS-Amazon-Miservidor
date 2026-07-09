@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Valhalla - El espíritu de los nórdicos vive. Descubre la era vikinga, su mitología y legado." />
+<title>⚔️ Valhalla · Reino Vikingo</title>
+
+<!-- Fuentes Premium -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+
+<!-- Font Awesome 6 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<!-- AOS Animation Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<!-- ===== PRELOADER ===== -->
+<div id="preloader">
+    <div class="preloader-content">
+    <div class="preloader-icon">
+        <i class="fas fa-helmet-battle"></i>
+    </div>
+    <div class="preloader-runes">ᚠᚢᚦᚨᚱᚲ</div>
+    <div class="preloader-line"></div>
+    <p>Forjando Valhalla</p>
+    </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+    <div class="container nav-container">
+    <div class="logo">
+        <i class="fas fa-helmet-battle"></i>
+        <span>Valhalla</span>
+        <span class="logo-rune">ᚢ</span>
+        <span class="logo-line"></span>
+    </div>
+
+    <nav>
+        <ul class="nav-links">
+        <li><a href="#inicio" class="nav-link active">
+            <span class="nav-rune">ᚠ</span> Inicio
+        </a></li>
+        <li><a href="#historia" class="nav-link">
+            <span class="nav-rune">ᚦ</span> Historia
+        </a></li>
+        <li><a href="#guerreros" class="nav-link">
+            <span class="nav-rune">ᚱ</span> Guerreros
+        </a></li>
+        <li><a href="#galeria" class="nav-link">
+            <span class="nav-rune">ᚨ</span> Galería
+        </a></li>
+        <li><a href="#contacto" class="nav-link">
+            <span class="nav-rune">ᚲ</span> Contacto
+        </a></li>
+        </ul>
+    </nav>
+
+    <div class="nav-actions">
+        <a href="#contacto" class="btn-primary btn-sm">Unirse <i class="fas fa-arrow-right"></i></a>
+        <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+        </div>
+    </div>
+    </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-gradient"></div>
+    <div class="hero-runes-bg">
+    <span>ᚠᚢᚦᚨᚱᚲ</span>
+    <span>ᚷᚹᚺᚾᛁᛃ</span>
+    <span>ᛈᛇᛉᛊᛏᛒ</span>
+    <span>ᛖᛗᛚᛝᛟᛞ</span>
+    </div>
+
+    <div class="container hero-content">
+    <div class="hero-text" data-aos="fade-up" data-aos-duration="1200">
+        <span class="badge">
+        <span class="badge-line"></span>
+        <i class="fas fa-bolt"></i> ᚠᛟᚱᛃᚨᛞᛟ · Forjado
+        <span class="badge-line"></span>
+        </span>
+        <h1>
+        El espíritu de los<br />
+        <span class="highlight">nórdicos</span> vive
+        </h1>
+        <p class="p-runes">
+        <span class="rune-text">ᛋᚢᛗᛖᚱᚷᛖ</span> · Sumérgete en la era vikinga: 
+        mitología, batallas épicas y la gloria eterna de Valhalla. 
+        <span class="rune-text">ᚹᚨᚲᛖᚢᛈ</span> · Despierta al guerrero que llevas dentro.
+        </p>
+        <div class="hero-buttons">
+        <a href="#historia" class="btn-primary">
+            Explorar <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#contacto" class="btn-secondary">
+            <i class="fas fa-feather-alt"></i> Unirse al clan
+        </a>
+        </div>
+    </div>
+
+    <div class="hero-stats" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200">
+        <div class="stat-item">
+        <span class="stat-number" data-count="500">0</span>
+        <span class="stat-label">ᚨᚾᛟᛋ · Años</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+        <span class="stat-number" data-count="9">0</span>
+        <span class="stat-label">ᚱᛖᛁᚾᛟᛋ · Reinos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+        <span class="stat-number"><i class="fas fa-bolt"></i></span>
+        <span class="stat-label">ᚦᛟᚱ · Thor</span>
+        </div>
+    </div>
+    </div>
+
+    <div class="scroll-indicator">
+    <span>ᛞᛖᛋᛈᛚᚨᛉᚨᛏᛖ · Desplázate</span>
+    <svg class="scroll-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+    </svg>
+    </div>
+</section>
+
+<!-- ===== HISTORIA ===== -->
+<section id="historia" class="history">
+    <div class="container">
+    <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">
+        <i class="fas fa-scroll"></i> ᚲᚱᛟᚾᛁᚲᚨᛋ · Crónicas
+        </span>
+        <h2>La era de los vikingos</h2>
+        <div class="section-divider"></div>
+        <p class="p-runes">
+        <span class="rune-text">ᛞᛖᛋᛞᛖ</span> Desde los fiordos de Noruega 
+        <span class="rune-text">ᚺᚨᛋᛏᚨ</span> hasta las costas de Inglaterra, 
+        los vikingos marcaron la historia con su ferocidad 
+        <span class="rune-text">ᛟᚲ</span> y su profunda conexión con los dioses.
+        </p>
+    </div>
+
+    <div class="history-grid">
+        <div class="history-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="card-number">ᛇ</div>
+        <div class="card-icon"><i class="fas fa-ship"></i></div>
+        <h3>Drakkars</h3>
+        <div class="card-rune">ᛞᚱᚨᚲᚲᚨᚱ</div>
+        <p>Barcos rápidos y resistentes que surcaban los mares, símbolo de exploración y conquista.</p>
+        <div class="card-hover-line"></div>
+        </div>
+
+        <div class="history-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-number">ᛉ</div>
+        <div class="card-icon"><i class="fas fa-hammer"></i></div>
+        <h3>Mjolnir</h3>
+        <div class="card-rune">ᛗᛃᛟᛚᚾᛁᚱ</div>
+        <p>El martillo de Thor, protector de Midgard y emblema de la fuerza divina.</p>
+        <div class="card-hover-line"></div>
+        </div>
+
+        <div class="history-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-number">ᛟ</div>
+        <div class="card-icon"><i class="fas fa-tree"></i></div>
+        <h3>Yggdrasil</h3>
+        <div class="card-rune">ᚤᚷᚷᛞᚱᚨᛋᛁᛚ</div>
+        <p>El árbol del mundo, que conecta los nueve reinos bajo la sabiduría de Odín.</p>
+        <div class="card-hover-line"></div>
+        </div>
+    </div>
+
+    <div class="history-timeline" data-aos="fade-up">
+        <div class="timeline-item">
+        <span class="timeline-year">᛬ᛒ᛬ᛟ᛬ᛏ᛬</span>
+        <p>Primer ataque vikingo a Lindisfarne</p>
+        </div>
+        <div class="timeline-item">
+        <span class="timeline-year">᛬ᛒ᛬ᚢ᛬ᛒ᛬</span>
+        <p>Unificación de Noruega por Harald I</p>
+        </div>
+        <div class="timeline-item">
+        <span class="timeline-year">᛬ᛒ᛬ᚠ᛬ᛒ᛬</span>
+        <p>Erik el Rojo descubre Groenlandia</p>
+        </div>
+        <div class="timeline-item">
+        <span class="timeline-year">᛬ᛒ᛬ᛏ᛬ᚠ᛬</span>
+        <p>Fin de la era vikinga en Stamford Bridge</p>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- ===== GUERREROS ===== -->
+<section id="guerreros" class="warriors">
+    <div class="container">
+    <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">
+        <i class="fas fa-shield-halved"></i> ᚺᛖᚱᛟᛖᛋ · Héroes
+        </span>
+        <h2>Guerreros de Valhalla</h2>
+        <div class="section-divider"></div>
+        <p class="p-runes">
+        <span class="rune-text">ᚨᛚᛗᚨᛋ</span> Almas valientes que han ganado 
+        <span class="rune-text">ᚢᚾᚨᛚᚢᚷᚨᚱ</span> un lugar en el gran salón de los caídos.
+        </p>
+    </div>
+
+    <div class="warrior-grid">
+        <div class="warrior-card" data-aos="flip-up" data-aos-delay="0">
+        <div class="warrior-img" style="background-image: url(images/);">
+            <div class="warrior-overlay">
+            <div class="warrior-rune">ᛖᚱᛁᚲ</div>
+            </div>
+        </div>
+        <div class="warrior-info">
+            <h4>Erik el Rojo</h4>
+            <div class="warrior-rune-name">ᛖᚱᛁᚲ ᚱᛟᛃᛟ</div>
+            <p>Explorador y fundador del primer asentamiento en Groenlandia.</p>
+            <span class="warrior-tag"><i class="fas fa-axe"></i> ᛒᛖᚱᛋᛖᚱᚲᛖᚱ · Berserker</span>
+        </div>
+        </div>
+
+        <div class="warrior-card" data-aos="flip-up" data-aos-delay="100">
+        <div class="warrior-img" style="background-image: url('https://images.unsplash.com/photo-1580592371747-6ccb5c276df8?w=600&auto=format&fit=crop&q=80');">
+            <div class="warrior-overlay">
+            <div class="warrior-rune">ᛚᚨᚷᛖᚱᚦᚨ</div>
+            </div>
+        </div>
+        <div class="warrior-info">
+            <h4>Lagertha</h4>
+            <div class="warrior-rune-name">ᛚᚨᚷᛖᚱᚦᚨ</div>
+            <p>Escudera y reina, símbolo de la mujer guerrera vikinga.</p>
+            <span class="warrior-tag"><i class="fas fa-shield"></i> ᛖᛋᚲᚢᛞᛖᚱᚨ · Escudera</span>
+        </div>
+        </div>
+
+        <div class="warrior-card" data-aos="flip-up" data-aos-delay="200">
+        <div class="warrior-img" style="background-image: url('https://images.unsplash.com/photo-1582823770843-9860e842da46?w=600&auto=format&fit=crop&q=80');">
+            <div class="warrior-overlay">
+            <div class="warrior-rune">ᚱᚨᚷᚾᚨᚱ</div>
+            </div>
+        </div>
+        <div class="warrior-info">
+            <h4>Ragnar Lodbrok</h4>
+            <div class="warrior-rune-name">ᚱᚨᚷᚾᚨᚱ ᛚᛟᛞᛒᚱᛟᚲ</div>
+            <p>Rey legendario, temido por sus enemigos y venerado por su pueblo.</p>
+            <span class="warrior-tag"><i class="fas fa-crown"></i> ᚱᛖᚤ · Rey</span>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- ===== GALERÍA ===== -->
+<section id="galeria" class="gallery">
+    <div class="container">
+    <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">
+        <i class="fas fa-images"></i> ᛈᚨᛁᛋᚨᛃᛖᛋ · Paisajes
+        </span>
+        <h2>Tierras del norte</h2>
+        <div class="section-divider"></div>
+        <p class="p-runes">
+        <span class="rune-text">ᛚᛟᛋ</span> Los escenarios que forjaron 
+        <span class="rune-text">ᚨᛚᚨᛋ</span> a los guerreros más temibles de la historia.
+        </p>
+    </div>
+
+    <div class="gallery-grid">
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="0">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&auto=format&fit=crop&q=80" alt="Fiordo noruego" />
+        <div class="gallery-overlay">
+            <h4>Fiordos de Noruega</h4>
+            <p>ᚠᛁᛟᚱᛞᛟᛋ · Cuna de los vikingos</p>
+        </div>
+        </div>
+
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&auto=format&fit=crop&q=80" alt="Aurora boreal" />
+        <div class="gallery-overlay">
+            <h4>Aurora Boreal</h4>
+            <p>ᚨᚢᚱᛟᚱᚨ · Luz de los dioses</p>
+        </div>
+        </div>
+
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&auto=format&fit=crop&q=80" alt="Montañas nevadas" />
+        <div class="gallery-overlay">
+            <h4>Montañas Heladas</h4>
+            <p>ᛗᛟᚾᛏᚨᚾᚨᛋ · El reino del hielo</p>
+        </div>
+        </div>
+
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1518877593221-1f28583780b4?w=600&auto=format&fit=crop&q=80" alt="Mar del norte" />
+        <div class="gallery-overlay">
+            <h4>Mar del Norte</h4>
+            <p>ᛗᚨᚱ · Ruta de los Drakkars</p>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- ===== TESTIMONIAL ===== -->
+<section class="testimonial">
+    <div class="testimonial-overlay"></div>
+    <div class="testimonial-pattern"></div>
+    <div class="container testimonial-content" data-aos="zoom-in">
+    <div class="testimonial-runes-bg">ᚠᚢᚦᚨᚱᚲ</div>
+    <blockquote>
+        <i class="fas fa-quote-left"></i>
+        <p>“No temo a la muerte, porque en Valhalla me esperan los héroes.”</p>
+        <footer>— ᛈᚱᛟᚹᛖᚱᛒᛁᛟ ᚢᛁᚲᛁᛝᚷᛟ · Proverbio vikingo</footer>
+    </blockquote>
+    </div>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<section id="contacto" class="contact">
+    <div class="container">
+    <div class="contact-wrapper">
+        <div class="contact-info" data-aos="fade-right">
+        <span class="section-tag">
+            <i class="fas fa-ravens"></i> ᚢᚾᛖᛏᛖ · Únete
+        </span>
+        <h2>Forma parte del clan</h2>
+        <div class="section-divider"></div>
+        <p class="p-runes">
+            <span class="rune-text">ᚱᛖᚲᛁᛒᛖ</span> Recibe las sagas, eventos 
+            <span class="rune-text">ᛟᚲ</span> y convocatorias directamente en tu cuervo mensajero.
+        </p>
+
+        <ul class="contact-list">
+            <li><i class="fas fa-location-dot"></i> ᚠᛁᛟᚱᛞᛟ · Fiordo de Oslo, Noruega</li>
+            <li><i class="fas fa-envelope"></i> ᛖᛗᚨᛁᛚ · valhalla@clanvikingo.com</li>
+            <li><i class="fas fa-horn"></i> ᛏᛖᛚᛖᚠᛟᚾᛟ · +47 123 456 789</li>
+        </ul>
+
+        <div class="contact-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+        </div>
+        </div>
+
+        <div class="contact-form" data-aos="fade-left">
+        <form id="contactForm">
+            <div class="form-group">
+            <input type="text" placeholder="ᛏᚢ ᚾᛟᛗᛒᚱᛖ · Tu nombre" required />
+            <i class="fas fa-user"></i>
+            </div>
+            <div class="form-group">
+            <input type="email" placeholder="ᚲᛟᚱᚱᛖᛟ · Correo vikingo" required />
+            <i class="fas fa-envelope"></i>
+            </div>
+            <div class="form-group">
+            <select required>
+                <option value="">ᛏᛁᛈᛟ ᛞᛖ ᚷᚢᛖᚱᚱᛖᚱᛟ · Tipo de guerrero</option>
+                <option>ᛒᛖᚱᛋᛖᚱᚲᛖᚱ · Berserker</option>
+                <option>ᛖᛋᚲᚢᛞᛖᚱᛟ · Escudero</option>
+                <option>ᛖᚲᛋᛈᛚᛟᚱᚨᛞᛟᚱ · Explorador</option>
+                <option>ᛃᚨᚱᛚ · Jarl</option>
+            </select>
+            <i class="fas fa-shield-halved"></i>
+            </div>
+            <div class="form-group">
+            <textarea rows="4" placeholder="ᛏᚢ ᛗᛖᚾᛋᚨᛃᛖ · Tu mensaje..."></textarea>
+            <i class="fas fa-feather-alt"></i>
+            </div>
+            <button type="submit" class="btn-primary">
+            ᛖᚾᚢᛁᚨᚱ · Enviar <i class="fas fa-paper-plane"></i>
+            </button>
+        </form>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="container footer-container">
+    <div class="footer-brand">
+        <div class="logo">
+        <i class="fas fa-helmet-battle"></i>
+        <span>Valhalla</span>
+        <span class="logo-rune">ᚢ</span>
+        </div>
+        <p>ᚠᛟᚱᛃᚨᛞᛟ ᛖᚾ ᛖᛚ ᚾᛟᚱᛏᛖ · Forjado en el norte, eterno en la leyenda.</p>
+        <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-links">
+        <h4>ᚾᚨᚡᛖᚷᚨᚲᛁᛟᚾ · Navegación</h4>
+        <ul>
+        <li><a href="#inicio">ᚠ · Inicio</a></li>
+        <li><a href="#historia">ᚦ · Historia</a></li>
+        <li><a href="#guerreros">ᚱ · Guerreros</a></li>
+        <li><a href="#galeria">ᚨ · Galería</a></li>
+        <li><a href="#contacto">ᚲ · Contacto</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-links">
+        <h4>ᚱᛖᚲᚢᚱᛋᛟᛋ · Recursos</h4>
+        <ul>
+        <li><a href="#">ᚱᚢᚾᚨᛋ · Runas</a></li>
+        <li><a href="#">ᛋᚨᚷᚨᛋ · Sagas</a></li>
+        <li><a href="#">ᛞᛁᛟᛋᛖᛋ · Dioses</a></li>
+        <li><a href="#">ᛖᚡᛖᚾᛏᛟᛋ · Eventos</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-newsletter">
+        <h4>ᚲᚢᛖᚱᚡᛟ · Cuervo mensajero</h4>
+        <p>ᛋᚢᛋᚲᚱᛁᛒᛖᛏᛖ · Suscríbete para recibir noticias del norte.</p>
+        <div class="newsletter-input">
+        <input type="email" placeholder="tu@email.com" />
+        <button><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer-bottom">
+    <p>© 2026 Valhalla · ᚺᛖᚲᚺᛟ ᚲᛟᚾ <i class="fas fa-heart" style="color:#b87333;"></i> ᛟᚲ ᚺᛟᚾᛟᚱ · Hecho con amor y honor vikingo.</p>
+    </div>
+</footer>
+
+<!-- ===== SCRIPTS ===== -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    // Inicializar AOS
+    AOS.init({
+    once: true,
+    offset: 80,
+    duration: 800,
+    easing: 'ease-out-cubic',
+    });
+
+    // Preloader
+    window.addEventListener('load', () => {
+    const preloader = document.getElementById('preloader');
+    preloader.classList.add('fade-out');
+    setTimeout(() => {
+        preloader.style.display = 'none';
+    }, 800);
+    });
+
+    // Contador de estadísticas
+    const statNumbers = document.querySelectorAll('.stat-number[data-count]');
+    const observerOptions = {
+    threshold: 0.5,
+    rootMargin: '0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.getAttribute('data-count'));
+        let current = 0;
+        const increment = target / 80;
+        const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+            el.textContent = target + '+';
+            clearInterval(timer);
+            } else {
+            el.textContent = Math.floor(current);
+            }
+        }, 25);
+        observer.unobserve(el);
+        }
+    });
+    }, observerOptions);
+
+    statNumbers.forEach(num => observer.observe(num));
+
+    // Hamburger Menu
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('active');
+    document.body.classList.toggle('menu-open');
+    });
+
+    document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+        document.body.classList.remove('menu-open');
+    });
+    });
+
+    // Navbar scroll effect
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+    const header = document.getElementById('header');
+    const currentScroll = window.pageYOffset;
+
+    if (currentScroll > 100) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+
+    lastScroll = currentScroll;
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+        target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+        }
+    });
+    });
+
+    // Form submission
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const btn = this.querySelector('.btn-primary');
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> ᛖᚾᚡᛁᚨᚾᛞᛟ · Enviando...';
+    btn.disabled = true;
+
+    setTimeout(() => {
+        btn.innerHTML = '<i class="fas fa-check"></i> ᛖᚾᚡᛁᚨᛞᛟ · ¡Enviado!';
+        btn.style.background = 'linear-gradient(135deg, #2ecc71, #27ae60)';
+
+        setTimeout(() => {
+        btn.innerHTML = 'ᛖᚾᚢᛁᚨᚱ · Enviar <i class="fas fa-paper-plane"></i>';
+        btn.style.background = '';
+        btn.disabled = false;
+        this.reset();
+        }, 2000);
+    }, 1500);
+    });
+
+    // Efecto parallax en el hero
+    window.addEventListener('scroll', () => {
+    const hero = document.querySelector('.hero');
+    const scrolled = window.pageYOffset;
+    hero.style.backgroundPositionY = scrolled * 0.3 + 'px';
+    });
+
+    // Efecto de brillo en tarjetas con movimiento del mouse
+    document.querySelectorAll('.history-card').forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width) * 100;
+        const y = ((e.clientY - rect.top) / rect.height) * 100;
+        card.style.setProperty('--mouse-x', x + '%');
+        card.style.setProperty('--mouse-y', y + '%');
+    });
+    });
+</script>
+</body>
+</html>
